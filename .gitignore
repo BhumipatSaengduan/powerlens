@@ -1,0 +1,7 @@
+# Ignore folders
+Timeline/
+__MACOSX/
+
+# Ignore file extensions
+*.7z
+*.zip
