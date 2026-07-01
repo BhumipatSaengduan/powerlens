@@ -168,7 +168,7 @@
 #endif
 
 // ── Sampling / Publish timing ───────────────────────────────────────────────
-static const uint32_t SAMPLE_RATE_HZ = 700UL;
+static const uint32_t SAMPLE_RATE_HZ = 1000UL;
 static const uint32_t SAMPLE_PERIOD_US = 1000000UL / SAMPLE_RATE_HZ;
 static const uint32_t TELEMETRY_PUBLISH_INTERVAL_MS = 10000UL;
 // Feature metrics are disabled in SD-only production; raw chunk headers record measured Hz.

@@ -185,9 +185,11 @@ MCP3x6x::mux_t MCP_CH_arr[] = { MCP_CH0, MCP_CH1, MCP_CH2, MCP_CH3, MCP_CH4, MCP
 
 #endif
 
+void mcp_wrapper() {
+  mcp.IRQ_handler();
+}
 
 volatile bool IRQ_flag = false;
-
 
 void setup() { 
 #if (pico2w)
