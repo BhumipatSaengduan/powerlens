@@ -1,6 +1,7 @@
 # Ignore folders
 Timeline/
 __MACOSX/
+powerlens_hpc_bundle/
 
 # Ignore file extensions
 *.7z
